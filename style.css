@@ -6,6 +6,10 @@
                 font-family: 'Roboto', sans-serif;
             }
             
+            html {
+                scroll-behavior: smooth;
+            }
+            
             .row {
                 width: 100%;
                 max-width: calc(1200px-20px);
@@ -59,7 +63,7 @@
                 right: 0;
                 bottom: 0;
                 z-index: 10;
-                height: 375px;
+                height: 500px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -402,7 +406,6 @@
                 color: #243e6e;
                 font-size: 60px;
                 margin: 16px 0 0;
-                text-align: center;
             }
             
             .quality__para {
@@ -542,7 +545,6 @@
                 margin-top: 16px;
                 width: 100%;
                 max-width: 550px;
-                text-align: center;
             }
             
             .value__para {
@@ -1201,6 +1203,12 @@
                 .quality__img--wrapper {
                     width: 75%;
                     margin: 20px 0;
+                }
+                .quality__title {
+                    text-align: center;
+                }
+                .value__title {
+                    text-align: center;
                 }
                 .value {
                     align-items: center;
