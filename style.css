@@ -1234,6 +1234,11 @@
             .footer__img {
                 width: 32px;
                 height: 32px;
+                transition: all 1s ease;
+            }
+            
+            .footer__img:hover {
+                transform: translateY(-5px);
             }
             
             .img__text--wrapper {
@@ -1248,6 +1253,7 @@
                 font-weight: 900;
                 letter-spacing: 1px;
                 color: #f7fafc;
+                transition: all 200ms ease;
             }
             
             .footer__para {
@@ -1275,6 +1281,19 @@
             .icon__footer:hover {
                 background-color: #8391a9;
                 opacity: 0.8;
+            }
+            
+            .img__text--wrapper {
+                cursor: pointer;
+            }
+            
+            .footer__logo--wrapper-flex {
+                display: flex;
+                align-items: center;
+            }
+            
+            .footer__logo:hover {
+                color: #000;
             }
             /*responsive*/
             
